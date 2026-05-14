@@ -236,8 +236,8 @@ hapi:
           # compatibility_level: "1.5"
           error_level: Info
           signature_level: All
-          # analyze_data_requirements: false
-          # collapse_data_requirements: false
+          analyze_data_requirements: true         # false
+          collapse_data_requirements: true        # false
           # translator_format: JSON
           # enable_date_range_optimization: true
           enable_annotations: true
